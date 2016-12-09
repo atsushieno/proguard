@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>name.atsushieno.proguard.facebook</id>
+    <version>5.3.2.2</version>
+    <authors>Eric Lafortune, Facebook</authors>
+    <owners>Atsushi Eno</owners>
+    <licenseUrl>https://github.com/facebook/proguard/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/facebook/proguard</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <title>Facebook's fork of Proguard</title>
+    <description>Facebook's fastor fork of Proguard, packaged for NuGet</description>
+    <releaseNotes>Initial package.</releaseNotes>
+    <copyright>Copyright © 2002-2016 Eric Lafortune @ GuardSquare. / Facebook</copyright> 
+    <tags>Android Proguard Facebook</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="README.md" target="README.md" />
+    <file src="LICENSE" target="LICENSE" />
+    <file src="bin/proguard.bat" target="bin" />
+    <file src="bin/proguard.sh" target="bin" />
+    <file src="lib/proguard.jar" target="lib" />
+    <file src="build/name.atsushieno.proguard.facebook.props" target="build" />
+  </files>
+</package>
