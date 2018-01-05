@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <AndroidSkipJavacVersionCheck>True</AndroidSkipJavacVersionCheck>
-    <ProguardToolPath>$(MSBuildThisFileDirectory)..</ProguardToolPath>
+    <ProguardToolPath>$(MSBuildThisFileDirectory)../</ProguardToolPath>
   </PropertyGroup>
 
 </Project>
